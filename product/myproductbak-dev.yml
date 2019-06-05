@@ -3,17 +3,17 @@ spring:
     name: myproductbak
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url:jdbc:mysql://localhost:3306/springcloud_sell?charset=utf8mb4&useSSL=false
-    name:root
-    password:root
+    url: jdbc:mysql://localhost:3306/springcloud_sell?charset=utf8mb4&useSSL=false
+    name: root
+    password: root
 management:
   endpoints:
     web:
       exposure:
-        include:*
+        include: *
   endpoint:
     health:
       show-details: always
-jpa
-  show-sql：true
-env:test
+jpa:
+  show-sql: true
+env: test
