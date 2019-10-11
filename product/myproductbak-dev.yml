@@ -3,7 +3,7 @@ spring:
     name: myproductbak
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springcloud_sell?charset=utf8mb4&useSSL=false
+    url: jdbc:mysql://localhost:3306/springcloud_sell
     username: root
     password: root
   rabbitmq:
